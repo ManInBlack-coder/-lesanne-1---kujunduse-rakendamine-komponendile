@@ -1,0 +1,7 @@
+<%- include('header'); %>
+<%- include('Index'); %>
+<%= error %>
+<% if(data !== null) { %>
+<%- include('Isikukood_result',data); %>
+<% } %>
+<%- include('footer'); %> 
